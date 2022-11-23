@@ -14,4 +14,4 @@
 * Сайт адаптирован под разрешения экрана от 320px до 1600px
 
 
-ссылка на проект в github-pages: 
+ссылка на проект в github-pages: https://daniel-goncharov.github.io/daniil-goncharov-portfolio/

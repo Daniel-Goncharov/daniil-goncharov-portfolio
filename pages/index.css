@@ -36,6 +36,8 @@
 @import url(../blocks/slide/_type/slide_type_how-to-learn.css);
 @import url(../blocks/slide/_type/slide_type_russian-travel.css);
 @import url(../blocks/slide/_type/slide_type_mesto.css);
+@import url(../blocks/slide/_type/slide_type_aim-training.css);
+@import url(../blocks/slide/_type/slide_type_vertical-slider.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__container/contact__container.css);

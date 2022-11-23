@@ -1,0 +1,21 @@
+.slide_type_aim-training:hover {
+  animation: slide_type_aim-training 6s infinite alternate ease-in-out;
+}
+
+@keyframes slide_type_aim-training {
+  from {
+    background-image: url('../../../images/aim-trainig.png');
+  }
+
+  50% {
+    background-image: url('../../../images/aim-trainig2.png');
+  }
+
+  75% {
+    background-image: url('../../../images/aim-trainig3.png');
+  }
+
+  100% {
+    background-image: url('../../../images/aim-trainig4.png');
+  }
+}
