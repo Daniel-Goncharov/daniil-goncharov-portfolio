@@ -1,0 +1,24 @@
+.neonText_color_green {
+  animation: flicker_green 1.5s infinite alternate;
+  color: #119502;
+}
+@keyframes flicker_green {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #119502,
+      0 0 11px #119502,
+      0 0 19px #119502,
+      0 0 40px #119502,
+      0 0 80px #119502,
+      0 0 90px #119502,
+      0 0 100px #119502,
+      0 0 150px #119502;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

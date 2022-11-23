@@ -1,0 +1,9 @@
+.contact__icon_type_telegram {
+  background-image: url('../../../../images/bxl-telegram.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  margin-right: 10px;
+}

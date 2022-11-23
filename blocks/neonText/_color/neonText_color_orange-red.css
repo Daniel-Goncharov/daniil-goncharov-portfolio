@@ -1,0 +1,24 @@
+.neonText_color_orange-red {
+  animation: flicker_orange-red 1.5s infinite alternate;
+  color: #e2501f;
+}
+@keyframes flicker_orange-red {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #e2501f,
+      0 0 11px #e2501f,
+      0 0 19px #e2501f,
+      0 0 40px #e2501f,
+      0 0 80px #e2501f,
+      0 0 90px #e2501f,
+      0 0 100px #e2501f,
+      0 0 150px #e2501f;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

@@ -1,0 +1,24 @@
+.neonText_color_red {
+  animation: flicker_red 1.5s infinite alternate;
+  color: #a90808;
+}
+@keyframes flicker_red {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #a90808,
+      0 0 11px #a90808,
+      0 0 19px #a90808,
+      0 0 40px #a90808,
+      0 0 80px #a90808,
+      0 0 90px #a90808,
+      0 0 100px #a90808,
+      0 0 150px #a90808;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

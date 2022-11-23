@@ -1,0 +1,24 @@
+.neonText_color_gray {
+  animation: flicker_gray 1.5s infinite alternate;
+  color: #ffffff;
+}
+@keyframes flicker_gray {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #a3a3a3,
+      0 0 11px #9c9c9c,
+      0 0 19px #ffffff,
+      0 0 40px #ffffff,
+      0 0 80px #ffffff,
+      0 0 90px #ffffff,
+      0 0 100px #ffffff,
+      0 0 150px #ffffff;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

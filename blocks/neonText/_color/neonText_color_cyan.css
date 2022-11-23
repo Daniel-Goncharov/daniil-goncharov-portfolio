@@ -1,0 +1,24 @@
+.neonText_color_cyan {
+  animation: flicker_cyan 1.5s infinite alternate;
+  color: #00f7ff;
+}
+@keyframes flicker_cyan {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #00f7ff,
+      0 0 11px #00f7ff,
+      0 0 19px #00f7ff,
+      0 0 40px #00f7ff,
+      0 0 80px #00f7ff,
+      0 0 90px #00f7ff,
+      0 0 100px #00f7ff,
+      0 0 150px #00f7ff;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

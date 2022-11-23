@@ -1,0 +1,10 @@
+.menu-list__item {
+  min-width: 100px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  line-height: 1;
+}

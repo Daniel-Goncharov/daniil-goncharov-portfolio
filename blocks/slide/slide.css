@@ -1,0 +1,61 @@
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 80px;
+  left: 20px;
+  margin: 0;
+  padding: 5px;
+  opacity: 0;
+}
+
+.slide a {
+  position: absolute;
+  font-size: 18px;
+  bottom: 35px;
+  left: 20px;
+  margin: 0;
+  padding: 5px;
+  opacity: 0;
+}
+
+.slide a:hover {
+  cursor: pointer;
+  color: #002aff;
+  text-shadow:
+      0 0 4px #002aff,
+      0 0 11px #002aff,
+      0 0 19px #002aff,
+      0 0 40px #002aff,
+      0 0 80px #002aff,
+      0 0 90px #002aff,
+      0 0 100px #002aff,
+      0 0 150px #002aff;
+}
+
+.slide.active {
+  flex: 10;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.slide.active a {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}

@@ -1,0 +1,29 @@
+.slide_type_how-to-learn:hover {
+  animation: slideshow_type_how-to-learn 6s infinite alternate linear;
+}
+
+@keyframes slideshow_type_how-to-learn {
+  from {
+    background-image: url('../../../images/how-to-learn.png');
+  }
+
+  20% {
+    background-image: url('../../../images/how-to-learn2.png');
+  }
+
+  40% {
+    background-image: url('../../../images/how-to-learn3.png');
+  }
+
+  60% {
+    background-image: url('../../../images/how-to-learn4.png');
+  }
+
+  80% {
+    background-image: url('../../../images/how-to-learn5.png');
+  }
+
+  100% {
+    background-image: url('../../../images/how-to-learn6.png');
+  }
+}

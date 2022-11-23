@@ -1,0 +1,25 @@
+.slide_type_mesto:hover {
+  animation: slideshow_type_mesto 6s infinite alternate linear;
+}
+
+@keyframes slideshow_type_mesto {
+  from {
+    background-image: url('../../../images/mesto.png');
+  }
+
+  25% {
+    background-image: url('../../../images/mesto2.png');
+  }
+
+  50% {
+    background-image: url('../../../images/mesto3.png');
+  }
+
+  75% {
+    background-image: url('../../../images/mesto4.png');
+  }
+
+  100% {
+    background-image: url('../../../images/mesto5.png');
+  }
+}

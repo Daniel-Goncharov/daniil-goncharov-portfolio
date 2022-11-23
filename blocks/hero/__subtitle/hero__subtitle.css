@@ -1,0 +1,11 @@
+.hero__subtitle {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 610px) {
+  .hero__subtitle {
+    font-size: 25px;
+    text-align: center;
+  }
+}

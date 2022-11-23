@@ -1,0 +1,25 @@
+.slide_type_russian-travel:hover {
+  animation: slideshow_type_russian-travel 6s infinite alternate linear;
+}
+
+@keyframes slideshow_type_russian-travel {
+  from {
+    background-image: url('../../../images/russian-travel.png');
+  }
+
+  25% {
+    background-image: url('../../../images/russian-travel2.png');
+  }
+
+  50% {
+    background-image: url('../../../images/russian-travel3.png');
+  }
+
+  75% {
+    background-image: url('../../../images/russian-travel4.png');
+  }
+
+  100% {
+    background-image: url('../../../images/russian-travel5.png');
+  }
+}

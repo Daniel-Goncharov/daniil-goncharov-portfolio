@@ -1,0 +1,13 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 610px) {
+  .hero {
+    margin-top: 40px;
+  }
+}

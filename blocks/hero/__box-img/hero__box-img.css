@@ -1,0 +1,15 @@
+@keyframes ava-bg {
+  from {
+    backdrop-filter: hue-rotate(0)
+  }
+
+  to {
+    backdrop-filter: hue-rotate(90deg)
+  }
+}
+
+.hero__box-img {
+  animation: ava-bg 3s infinite alternate;
+}
+
+

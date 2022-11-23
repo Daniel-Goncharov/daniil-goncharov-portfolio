@@ -1,0 +1,24 @@
+.neonText_color_yellow {
+  animation: flicker_yellow 1.5s infinite alternate;
+  color: #ffff00;
+}
+@keyframes flicker_yellow {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #ffff00,
+      0 0 11px #ffff00,
+      0 0 19px #ffff00,
+      0 0 40px #ffff00,
+      0 0 80px #ffff00,
+      0 0 90px #ffff00,
+      0 0 100px #ffff00,
+      0 0 150px #ffff00;
+
+  }
+
+  20%, 24%, 55% {
+      text-shadow: none;
+  }
+}

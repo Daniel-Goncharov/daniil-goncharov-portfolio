@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Daniil Goncharov</title>
+</head>
+<body class="page">
+  <div class="content">
+    <header class="header">
+      <div class="logo"></div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-list__item"><a href="#">Главная</a></li>
+          <li class="menu-list__item"><a href="#about">Обо мне</a></li>
+          <li class="menu-list__item"><a href="#projects">Мои работы</a></li>
+          <li class="menu-list__item"><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="hero__about">
+          <h1 class="hero__title">Даниил Гончаров</h1>
+          <h2 class="hero__subtitle">Веб-разработчик</h2>
+          <p class="hero__description">Привет! Я веб-разработчик, занимаюсь версткой адаптивных сайтов. Хорошо знаю Java Script и React.</p>
+        </div>
+        <div class="hero__box">
+          <img class="hero__box-img" src="./images/Portret.png" alt="Мое фото">
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about__container">
+        <h2 class="hero__subtitle">Обо мне</h2>
+        <p class="hero__description">Родился в Москве. В 2012 году закончил Российский Государственный Гуманитарный Университет по специальности социальная психология.
+          10 лет работал в сфере развития и обучения персонала. Разрабатывал и проводил учебные курсы, тренинги, дистанционные он-лайн курсы.
+          В 2021 году перешел работать в IT стартап где занимался «Управлением знаниями», а именно писал документацию для разработчиков по софту,
+          который разрабатывала компания. Организовал учебный портал для хранения этой информации и для этого начал изучать html верстку.
+          В 2022 году решил, что хочу полностью посветить себя разработке сайтов и начал учиться на Веб-разработчика на курсах Яндекс Практикум.
+        </p>
+        <p class="hero__description">В 2021 году перешел работать в IT стартап где занимался «Управлением знаниями», а именно писал документацию
+          для разработчиков по приложению, который разрабатывала компания. Разрабатывал он-лайн курсы для обучения клиентов как пользоваться нашим приложением.
+          Организовал учебный портал для хранения этой информации и для этого начал изучать html верстку.
+          В 2022 году решил, что хочу полностью посветить себя разработке сайтов и начал учиться на Веб-разработчика на курсах Яндекс Практикум.
+        </p>
+      </div>
+      <div class="about__container">
+        <h2 class="hero__subtitle">Мои навыки</h2>
+        <ul class="grid__skills">
+          <li class="grid__skills-item neonText_color_red">HTML5</li>
+          <li class="grid__skills-item neonText_color_blue">CSS</li>
+          <li class="grid__skills-item neonText_color_yellow">Java Script</li>
+          <li class="grid__skills-item neonText_color_cyan">React</li>
+          <li class="grid__skills-item neonText_color_green">NODE.JS</li>
+          <li class="grid__skills-item neonText_color_gray">JSON</li>
+          <li class="grid__skills-item neonText_color_orange-red">GIT</li>
+          <li class="grid__skills-item neonText_color_purple">Figma</li>
+        </ul>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="section__title">Мои проекты</h2>
+      <div class="my-projects">
+        <div class="my-projects__container">
+          <div
+              class="slide slide_type_how-to-learn"
+              style="background-image: url('./images/how-to-learn.png');"
+          >
+            <h3 class="slide__title_black">Научиться учиться</h3>
+            <a class="slide__title_black" href="https://daniel-goncharov.github.io/how-to-learn/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+          <div
+              class="slide slide_type_russian-travel"
+              style="background-image: url('./images/russian-travel.png');"
+          >
+            <h3>Путишествие по России</h3>
+            <a href="https://daniel-goncharov.github.io/russian-travel/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+          <div
+              class="slide slide_type_mesto"
+              style="background-image: url('./images/mesto.png');"
+          >
+            <h3>проект Место</h3>
+            <a href="https://daniel-goncharov.github.io/mesto-react/" target="_blank">Посмотреть сайт &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <h2>Мои контакты</h2>
+      <ul class="contact">
+        <li>
+          <a class="contact__container" href="https://www.linkedin.com/in/daniil-goncharov-862142aa/" target="_blank">
+            <div class="contact__icon_type_linkedin"></div>
+            <p class="contact__link">Моя страница в Linkedin</p>
+          </a>
+        </li>
+        <li>
+          <a class="contact__container" href="https://t.me/DanielGDrive" target="_blank">
+            <div class="contact__icon_type_telegram"></div>
+            <p class="contact__link">Мой Telegram</p>
+          </a>
+        </li>
+        <li class="contact__container">
+          <div class="contact__icon_type_email"></div>
+          <p class="contact__link">goncharov10d@gmail.com</p>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="./pages/index.js"></script>
+</body>
+</html>

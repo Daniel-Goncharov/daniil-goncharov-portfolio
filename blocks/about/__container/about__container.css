@@ -1,0 +1,14 @@
+.about__container {
+  background: #202020;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  padding: 50px;
+  margin:0 25px 25px;
+}
+
+@media screen and (max-width: 610px) {
+  .about__container {
+    padding: 20px;
+    margin:0 20px 20px;
+  }
+}
