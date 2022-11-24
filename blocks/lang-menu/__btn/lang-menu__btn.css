@@ -1,0 +1,23 @@
+.lang-menu__btn {
+  border: none;
+  color: white;
+  background-color: #171810;
+  font-size: 20px;
+  line-height: 1;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.lang-menu__btn:hover {
+  cursor: pointer;
+  color: #002aff;
+  text-shadow:
+      0 0 4px #002aff,
+      0 0 11px #002aff,
+      0 0 19px #002aff,
+      0 0 40px #002aff,
+      0 0 80px #002aff,
+      0 0 90px #002aff,
+      0 0 100px #002aff,
+      0 0 150px #002aff;
+}

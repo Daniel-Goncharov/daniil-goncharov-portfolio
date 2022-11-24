@@ -1,0 +1,17 @@
+.lang-menu__btn_select {
+  border-bottom: 2px solid white;
+}
+
+.lang-menu__btn_select:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #002aff;
+  text-shadow:
+      0 0 4px #002aff,
+      0 0 11px #002aff,
+      0 0 19px #002aff,
+      0 0 40px #002aff,
+      0 0 80px #002aff,
+      0 0 90px #002aff,
+      0 0 100px #002aff,
+      0 0 150px #002aff;
+}
