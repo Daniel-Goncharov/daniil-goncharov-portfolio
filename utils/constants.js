@@ -5,7 +5,7 @@ const langArr = {
   },
   "menu-about" : {
     "ru": "Кто я",
-    "en": "Who am I"
+    "en": "Who I am"
   },
   "menu-projects" : {
     "ru": "Мои проекты",
@@ -25,7 +25,7 @@ const langArr = {
   },
   "about" : {
     "ru": "Кто я",
-    "en": "Who am I"
+    "en": "Who I am"
   },
   "short-description" : {
     "ru": "Привет! Я веб-разработчик, занимаюсь версткой адаптивных сайтов. Хорошо знаю Java Script и React.",
