@@ -1,0 +1,17 @@
+.about__description {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 610px) {
+  .about__description {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .about__description {
+    font-size: 17px;
+  }
+}

@@ -32,6 +32,8 @@
 @import url(../blocks/neonText/_color/neonText_color_yellow.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/my-projects/my-projects.css);
 @import url(../blocks/my-projects/__container/my-projects__container.css);
 @import url(../blocks/slide/slide.css);
@@ -48,3 +50,4 @@
 @import url(../blocks/contact/__icon/_type/contact__icon_type_email.css);
 @import url(../blocks/contact/__icon/_type/contact__icon_type_linkedin.css);
 @import url(../blocks/contact/__icon/_type/contact__icon_type_telegram.css);
+@import url(../blocks/anim-show/anim-show.css);
