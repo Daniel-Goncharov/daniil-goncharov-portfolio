@@ -1,8 +1,8 @@
-.slide_type_aim-training:hover {
-  animation: slide_type_aim-training 6s infinite alternate ease-in-out;
+.my-projects_type_aim-training:hover {
+  animation: slideshow_type_aim-training 6s infinite alternate ease-in-out;
 }
 
-@keyframes slide_type_aim-training {
+@keyframes slideshow_type_aim-training {
   from {
     background-image: url('../../../images/aim-trainig.png');
   }

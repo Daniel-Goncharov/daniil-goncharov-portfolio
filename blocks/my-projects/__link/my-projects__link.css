@@ -1,0 +1,20 @@
+.my-projects__link {
+  font-size: 27px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 610px) {
+  .my-projects__link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .my-projects__link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 0;
+  }
+}

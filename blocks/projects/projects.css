@@ -1,0 +1,9 @@
+.projects {
+  margin: 0 25px 25px;
+}
+
+@media screen and (max-width: 610px) {
+  .projects {
+    margin: 0 20px 20px;
+  }
+}

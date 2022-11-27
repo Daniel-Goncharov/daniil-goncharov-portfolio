@@ -24,8 +24,8 @@ const langArr = {
     "en": "Web-developer"
   },
   "about" : {
-    "ru": "Кто я",
-    "en": "Who I am"
+    "ru": "Обо мне",
+    "en": "About myself"
   },
   "short-description" : {
     "ru": "Привет! Я веб-разработчик, занимаюсь версткой адаптивных сайтов. Хорошо знаю Java Script и React.",
@@ -72,31 +72,31 @@ const langArr = {
     "en": "Contact"
   },
   "linkedin" : {
-    "ru": "Моя страница в Linkedin",
-    "en": "My page in Linkedin"
+    "ru": "Моя страница в LinkedIn",
+    "en": "My page in LinkedIn"
   },
   "telegram" : {
     "ru": "Мой Telegram",
     "en": "My Telegram"
   },
   "view-website-1" : {
-    "ru": "Посмотреть сайт &rarr;",
-    "en": "View website &rarr;"
+    "ru": "Посмотреть сайт&nbsp;&rarr;",
+    "en": "View website&nbsp;&rarr;"
   },
   "view-website-2" : {
-    "ru": "Посмотреть сайт &rarr;",
-    "en": "View website &rarr;"
+    "ru": "Посмотреть сайт&nbsp;&rarr;",
+    "en": "View website&nbsp;&rarr;"
   },
   "view-website-3" : {
-    "ru": "Посмотреть сайт &rarr;",
-    "en": "View website &rarr;"
+    "ru": "Посмотреть сайт&nbsp;&rarr;",
+    "en": "View website&nbsp;&rarr;"
   },
   "view-website-4" : {
-    "ru": "Посмотреть сайт &rarr;",
-    "en": "View website &rarr;"
+    "ru": "Посмотреть сайт&nbsp;&rarr;",
+    "en": "View website&nbsp;&rarr;"
   },
   "view-website-5" : {
-    "ru": "Посмотреть сайт &rarr;",
-    "en": "View website &rarr;"
+    "ru": "Посмотреть сайт&nbsp;&rarr;",
+    "en": "View website&nbsp;&rarr;"
   },
 };

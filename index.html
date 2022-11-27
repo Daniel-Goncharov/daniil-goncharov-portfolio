@@ -40,7 +40,7 @@
     </section>
     <section class="about" id="about">
       <div class="about__container _anim-items _anim-no-hide">
-        <h2 class="about__title lng-about _anim-items _anim-no-hide">Кто я</h2>
+        <h2 class="about__title lng-about _anim-items _anim-no-hide">Обо мне</h2>
         <p class="about__description lng-long-description-one _anim-show _anim-no-hide">Родился в Москве. В 2012 году закончил Российский Государственный Гуманитарный Университет по специальности социальная психология.
           10 лет работал в сфере развития и обучения персонала. Разрабатывал и проводил учебные курсы, тренинги, дистанционные он-лайн курсы.
           В 2021 году перешел работать в IT стартап где занимался «Управлением знаниями», а именно писал документацию для разработчиков по софту,
@@ -64,45 +64,60 @@
         </ul>
       </div>
     </section>
-    <section class="projects _anim-items" id="projects">
+    <section class="projects" id="projects">
       <h2 class="section__title lng-projects _anim-items">Мои проекты</h2>
-      <div class="my-projects _anim-show">
-        <div class="my-projects__container">
-          <div
-              class="slide slide_type_how-to-learn"
-              style="background-image: url('./images/how-to-learn.png');"
-          >
-            <h3 class="slide__title_black lng-how-to-learn">Научиться учиться</h3>
-            <a class="slide__title_black lng-view-website-1" href="https://daniel-goncharov.github.io/how-to-learn/" target="_blank">Посмотреть сайт &rarr;</a>
+      <div class="my-projects__container _anim-items">
+        <div class="sidebar">
+          <div style="background: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);">
+            <h3 class="my-projects__title lng-how-to-learn">Научиться учиться</h1>
+            <a class="my-projects__link lng-view-website-1" href="https://daniel-goncharov.github.io/how-to-learn/" target="_blank">Посмотреть сайт &nbsp; &rarr;</a>
           </div>
-          <div
-              class="slide slide_type_russian-travel"
-              style="background-image: url('./images/russian-travel.png');"
-          >
-            <h3 class="lng-russian-travel">Путишествие по России</h3>
-            <a class="lng-view-website-2" href="https://daniel-goncharov.github.io/russian-travel/" target="_blank">Посмотреть сайт &rarr;</a>
+          <div style="background: linear-gradient(to top, #2f2c2c 0%, #0b5c4c 100%);">
+            <h3 class="my-projects__title lng-russian-travel">Путишествие по России</h3>
+            <a class="my-projects__link lng-view-website-2" href="https://daniel-goncharov.github.io/russian-travel/" target="_blank">Посмотреть сайт &rarr;</a>
           </div>
-          <div
-              class="slide slide_type_mesto"
-              style="background-image: url('./images/mesto.png');"
-          >
-            <h3 class="lng-mesto">проект Место</h3>
-            <a class="lng-view-website-3" href="https://daniel-goncharov.github.io/mesto-react/" target="_blank">Посмотреть сайт &rarr;</a>
+          <div style="background: linear-gradient(to bottom, #0250c5 0%, #d43f8d 100%);">
+            <h3 class="my-projects__title lng-aim-training">игра "Тренировка меткости"</h3>
+            <a class="my-projects__link lng-view-website-4" href="https://daniel-goncharov.github.io/Aim-Training-game/" target="_blank">Посмотреть сайт &rarr;</a>
           </div>
-          <div
-              class="slide slide_type_aim-training"
-              style="background-image: url('./images/aim-trainig.png');"
-          >
-            <h3 class="lng-aim-training">игра "Тренировка меткости"</h3>
-            <a class="lng-view-website-4" href="https://daniel-goncharov.github.io/Aim-Training-game/" target="_blank">Посмотреть сайт &rarr;</a>
+          <div style="background: linear-gradient(60deg, #171a1d 0%, #373d43 100%);">
+            <h3 class="my-projects__title lng-mesto">проект Место</h3>
+            <a class="my-projects__link lng-view-website-3" href="https://daniel-goncharov.github.io/mesto-react/" target="_blank">Посмотреть сайт &rarr;</a>
           </div>
+        </div>
+        <div class="main-slide">
           <div
-              class="slide slide_type_vertical-slider"
-              style="background-image: url('./images/vertical-slider.png');"
-          >
-            <h3 class="lng-vertical-slider">сайт с вертикальным слайдером изображений</h3>
-            <a class="lng-view-website-5" href="https://daniel-goncharov.github.io/VerticalSliderPlugin/" target="_blank">Посмотреть сайт &rarr;</a>
-          </div>
+          class="my-projects_type_mesto"
+            style="
+              background-image: url('./images/mesto.png');
+            "
+          ></div>
+          <div
+            class="my-projects_type_aim-training"
+            style="
+              background-image: url('./images/aim-trainig.png');
+            "
+          ></div>
+          <div
+          class="my-projects_type_russian-travel"
+            style="
+              background-image: url('./images/russian-travel.png');
+            "
+          ></div>
+          <div
+          class="my-projects_type_how-to-learn"
+            style="
+              background-image: url('./images/how-to-learn.png');
+            "
+          ></div>
+        </div>
+        <div class="controls">
+          <button class="down-button">
+            <i class="arrow down"></i>
+          </button>
+          <button class="up-button">
+            <i class="arrow up"></i>
+          </button>
         </div>
       </div>
     </section>

@@ -34,15 +34,11 @@
 @import url(../blocks/about/__container/about__container.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/projects/projects.css);
 @import url(../blocks/my-projects/my-projects.css);
 @import url(../blocks/my-projects/__container/my-projects__container.css);
-@import url(../blocks/slide/slide.css);
-@import url(../blocks/slide/__title/slide__title_black.css);
-@import url(../blocks/slide/_type/slide_type_how-to-learn.css);
-@import url(../blocks/slide/_type/slide_type_russian-travel.css);
-@import url(../blocks/slide/_type/slide_type_mesto.css);
-@import url(../blocks/slide/_type/slide_type_aim-training.css);
-@import url(../blocks/slide/_type/slide_type_vertical-slider.css);
+@import url(../blocks/my-projects/__title/my-projects__title.css);
+@import url(../blocks/my-projects/__link/my-projects__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__container/contact__container.css);
@@ -51,3 +47,7 @@
 @import url(../blocks/contact/__icon/_type/contact__icon_type_linkedin.css);
 @import url(../blocks/contact/__icon/_type/contact__icon_type_telegram.css);
 @import url(../blocks/anim-show/anim-show.css);
+@import url(../blocks/my-projects/_type/my-projects_type_aim-training.css);
+@import url(../blocks/my-projects/_type/my-projects_type_how-to-learn.css);
+@import url(../blocks/my-projects/_type/my-projects_type_mesto.css);
+@import url(../blocks/my-projects/_type/my-projects_type_russian-travel.css);

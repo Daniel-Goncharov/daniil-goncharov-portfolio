@@ -33,29 +33,8 @@ if (animItems.length > 0) {
 setTimeout(() => {
   animOnScroll();
 }, 300);
+const slidesContainer = document.querySelector('.my-projects__container');
 
-
-function slidesPlugin(activeSlide = 0) {
-  const slides = document.querySelectorAll('.slide');
-
-  slides[activeSlide].classList.add('active');
-
-  for (const slide of slides) {
-      slide.addEventListener('click', () => {
-          clearActiveClasses();
-
-          slide.classList.add('active');
-      })
-  };
-
-  function clearActiveClasses() {
-      slides.forEach((slide) => {
-          slide.classList.remove('active');
-      })
-  };
-}
-
-slidesPlugin(1);
 
 const langBtns = document.querySelectorAll('.lang-menu__btn');
 const allLang = ['en', 'ru'];
@@ -100,3 +79,79 @@ function changeLanguage() {
 
 changeLanguage();
 
+const upBtn = document.querySelector('.up-button');
+const downBtn = document.querySelector('.down-button');
+const sidebar = document.querySelector('.sidebar');
+const mainSlide = document.querySelector('.main-slide');
+const container = document.querySelector('.my-projects__container')
+const slidesCount = mainSlide.querySelectorAll('div').length;
+let activeSlideIndex = 0;
+
+sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
+
+upBtn.addEventListener('click', () => {
+  changeSlide('up');
+});
+
+downBtn.addEventListener('click', () => {
+  changeSlide('down');
+});
+
+document.addEventListener('keydown', (evt) => {
+  if (evt.key === 'ArrowUp') {
+    changeSlide('up');
+  } else if (evt.key === 'ArrowDown') {
+    changeSlide('down');
+  }
+})
+
+function changeSlide(direction) {
+  if (direction === 'up') {
+    activeSlideIndex++
+    if (activeSlideIndex === slidesCount)
+    {
+      activeSlideIndex = 0
+    }
+  } else if (direction === 'down') {
+    activeSlideIndex--
+    if (activeSlideIndex < 0)
+    {
+      activeSlideIndex = slidesCount - 1
+    }
+  }
+
+  const height = container.clientHeight
+  mainSlide.style.transform = `translateY(-${activeSlideIndex * height}px)`
+  sidebar.style.transform = `translateY(${activeSlideIndex * height}px)`
+}
+
+container.addEventListener('touchstart', handleTouchStart, false);
+      slidesContainer.addEventListener('touchmove', handleTouchMove, false);
+
+      let x1 = null;
+      let y1 = null;
+
+      function handleTouchStart(evt) {
+        const firstTouch = evt.touches[0];
+        x1 = firstTouch.clientX;
+        y1 = firstTouch.clientY;
+      }
+
+      function handleTouchMove(evt) {
+        if (!x1 || !y1) {
+          return false;
+        }
+        let x2 = evt.touches[0].clientX;
+        let y2 = evt.touches[0].clientY;
+        let xDiff = x2 - x1;
+        let yDiff = y2 - y1;
+
+        if (Math.abs(xDiff) > Math.abs(yDiff)) {
+          if (xDiff > 0);
+        } else {
+          if (yDiff > 0) changeSlide('down');
+          else changeSlide('up');
+        }
+        x1 = null;
+        y2 = null;
+      }
