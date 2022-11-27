@@ -85,6 +85,8 @@ const sidebar = document.querySelector('.sidebar');
 const mainSlide = document.querySelector('.main-slide');
 const container = document.querySelector('.my-projects__container')
 const slidesCount = mainSlide.querySelectorAll('div').length;
+const body = document.body;
+
 let activeSlideIndex = 0;
 
 sidebar.style.top = `-${(slidesCount - 1) * 100}vh`;
@@ -127,7 +129,10 @@ function changeSlide(direction) {
 
 container.addEventListener('touchstart', handleTouchStart, false);
       slidesContainer.addEventListener('touchmove', handleTouchMove, false);
-
+      slidesContainer.addEventListener('touchend', () => {
+        body.classList.remove('disable-scroll');
+      });
+      
       let x1 = null;
       let y1 = null;
 
@@ -135,6 +140,7 @@ container.addEventListener('touchstart', handleTouchStart, false);
         const firstTouch = evt.touches[0];
         x1 = firstTouch.clientX;
         y1 = firstTouch.clientY;
+        body.classList.add('disable-scroll');
       }
 
       function handleTouchMove(evt) {
@@ -149,8 +155,11 @@ container.addEventListener('touchstart', handleTouchStart, false);
         if (Math.abs(xDiff) > Math.abs(yDiff)) {
           if (xDiff > 0);
         } else {
-          if (yDiff > 0) changeSlide('down');
-          else changeSlide('up');
+          if (yDiff > 0) {
+            changeSlide('down');
+          } else {
+            changeSlide('up');
+          }
         }
         x1 = null;
         y2 = null;
